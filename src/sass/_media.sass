@@ -29,7 +29,7 @@
             width: 50%
             &:nth-child(1)
                 width: 25%
-            &_nth-child(3)
+            &:nth-child(3)
                 width: 25%
                 display: flex
                 justify-content: flex-end
@@ -75,7 +75,7 @@
             width: 300px
             margin-top: 20px
     .choice
-        min: height 800px
+        min-height: 800px
         &_img
             width: 100%
     .world
@@ -90,7 +90,7 @@
             margin-bottom: 20px
             &:nth-child(1)
                 width: 100%
-            &_nth-child(3)
+            &:nth-child(3)
                 width: 100%
                 justify-content: flex-end
 
@@ -156,7 +156,7 @@
             text-transform: uppercase
             text-align: center
         &_btn
-            display:block
+            display: block
             width: 200px
             height: 40px
             margin: 0 auto
@@ -275,7 +275,7 @@
                 bottom: 28px
                 &:hover
                     &:before, &::after
-                        background-color: &text-color
+                        background-color: $text-color
     .choice
         padding: 25px 0 33px 0
         min-height: 390px
@@ -309,8 +309,8 @@
             font-size: 14px
             margin-top: 15px
     .world
-        min-height: 360
-        padding 25px 0 30px 0
+        min-height: 360px
+        padding: 25px 0 30px 0
         &_link
             width: 200px
             display: block
